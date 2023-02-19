@@ -15,6 +15,7 @@
   background-image: url(./images/Element.png);
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 0px 0px 10px 10px;
 }
 .header {
   display: flex;
@@ -42,6 +43,9 @@
   display: inline;
   padding: 25px;
 }
+.menu ul li a:hover{
+  color: #fdd356;
+}
 .btn {
   margin-right: 100px;
 }
@@ -49,16 +53,24 @@
   /* margin-left: -50px; */
   width: 80px;
   height: 45px;
-  background-color: #ffe492;
+  background-color: #fdd356;
   border-radius: 10px;
   border-color: transparent;
+  font-weight: bold;
+}
+.one:hover{
+  background-color: #4f9cf9;
+  transition: 0.4s;
+  cursor: pointer;
+
 }
 .two {
   width: 200px;
   height: 45px;
-  background-color: #a7cefc;
+  background-color: #4f9cf9;
   border-radius: 10px;
   border-color: transparent;
+  font-weight: bold;
 }
 .main {
   display: flex;
@@ -91,7 +103,7 @@
 .thr {
   width: 200px;
   height: 45px;
-  background-color: #a7cefc;
+  background-color: #4f9cf9;
   border-radius: 10px;
   border-color: transparent;
   color: white;
@@ -188,6 +200,7 @@
   background-image: url(./images/Element.png);
   display: flex;
   align-items: center;
+  border-radius: 10px;
 }
 .frthleft {
   margin-left: 100px;
@@ -217,7 +230,7 @@
 .frthchobi {
   width: 500px;
   height: 300px;
-  background-color: #76b6ff;
+  background-color: #4f9cf9;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -282,6 +295,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
   
 }
 .eightcontent{
@@ -345,7 +359,7 @@
   background-image: url(./images/Element.png);
   display: flex;
   align-items: center;
-  border-radius: 25px;
+  border-radius: 10px;
 
 }
 .elelft{
@@ -392,6 +406,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 10px 10px 0px 0px;
 }
 .footertitle{
   font-size: 55px;
@@ -411,4 +426,17 @@
   width: 100%;
   border: none;
   overflow: hidden;
+}
+.hvr{
+  color: black;
+  font-size: 16px;
+}
+.hvr:hover{
+  background-color: #fdd356;
+  transition: 0.4s;
+  color: black;
+  cursor: pointer;
+}
+span{
+  color: #fdd356;
 }
