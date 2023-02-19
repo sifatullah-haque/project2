@@ -70,7 +70,9 @@
 .chobi {
   width: 550px;
   height: 350px;
-  background-color: #a7cefc;
+  background-image: url(./images/heroimg.svg);
+  object-fit: cover;
+  /* background-color: #a7cefc; */
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -128,12 +130,16 @@
 .schobi {
   width: 500px;
   height: 350px;
-  background-color: #a7cefc;
+  /* background-color: #a7cefc; */
+  /* background-image: url(./images/project\ manager.svg); */
   border-radius: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
   margin-left: 30px;
+}
+.schobi >img{
+  width: 100%;
 }
 .third {
   height: 100vh;
@@ -211,12 +217,15 @@
 .frthchobi {
   width: 500px;
   height: 300px;
-  background-color: #a7cefc;
+  background-color: #76b6ff;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
   margin-left: 30px;
+}
+.frthchobi >img{
+  width: 100%;
 }
 .fifth {
   height: 60vh;
@@ -229,12 +238,15 @@
 .fifthchobi {
   width: 500px;
   height: 300px;
-  background-color: #a7cefc;
+  /* background-color: #a7cefc; */
   border-radius: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
   margin-right: 50px;
+}
+.fifthchobi>img{
+  width: 100%;
 }
 .fifthrgt {
   margin-right: 100px;
@@ -391,4 +403,12 @@
 .footerpara{
   color: white;
 
+}
+.footer{
+  background-color: #043873;
+}
+.lastelement{
+  width: 100%;
+  border: none;
+  overflow: hidden;
 }
